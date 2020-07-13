@@ -12,5 +12,12 @@ import Cocoa
 
 final class WindowController: NSWindowController {
     @IBOutlet weak var testField: NSTextField!
-    
+ 
+    @IBAction override func newWindowForTab(_ sender: Any?) {
+        if let wc = NSStoryboard.main?.instantiateInitialController() as? WindowController,
+            let window = wc.window {
+            self.window?.addTabbedWindow(window, ordered: .above)
+            window.makeKey()
+        }
+    }
 }

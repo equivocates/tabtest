@@ -99,12 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				6643994624BCBA6A00B99712 /* AppDelegate.swift */,
+				6643997224BCBAB100B99712 /* WindowController.swift */,
 				6643994824BCBA6A00B99712 /* ViewController.swift */,
 				6643994A24BCBA6C00B99712 /* Assets.xcassets */,
 				6643994C24BCBA6C00B99712 /* Main.storyboard */,
 				6643994F24BCBA6C00B99712 /* Info.plist */,
 				6643995024BCBA6C00B99712 /* Tabs.entitlements */,
-				6643997224BCBAB100B99712 /* WindowController.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
