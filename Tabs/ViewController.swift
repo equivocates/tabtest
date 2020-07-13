@@ -23,6 +23,9 @@ class ViewController: NSViewController {
     }
 
     @IBAction func plusButton(_ sender: Any) {
+        if let wc = self.view.window?.windowController as? WindowController {
+            wc.testField.integerValue += 1
+        }
     }
     
 }
