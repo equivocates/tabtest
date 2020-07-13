@@ -22,6 +22,8 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func plusButton(_ sender: Any) {
+    }
+    
 }
 
